@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const fs = require("fs");
-const home = require("./route/home");
+const home = require("./home");
 const ejs = require("ejs");
 
 app.set("views", path.join(__dirname, "app1"));
